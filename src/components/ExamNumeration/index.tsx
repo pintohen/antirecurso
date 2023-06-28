@@ -56,7 +56,7 @@ const ExamNumeration: React.FC<ExamNumerationProps> = ({
       }}
       style={{
         border: active ? 'none' : wasAnswered ? 'none' : '1px solid #d35d19',
-        color: active ? '#fff' : wasAnswered ? '#d35d19' : isWrong ? '#fff' : '#d35d19'
+        color: active ? '#fff' : wasAnswered ? '#d35d19' : isWrong ? '#000' : '#d35d19'
       }}
       ref={ref}
       onClick={onClick}
